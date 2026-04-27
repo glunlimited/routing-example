@@ -1,0 +1,24 @@
+.personWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.personDetail {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+.personDetail img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.btnWrapper {
+    display: flex;
+    align-items: center;  
+    gap: 16px;
+}

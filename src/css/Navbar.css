@@ -1,0 +1,28 @@
+.navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    margin-bottom: 32px;
+    padding-top: 10px;
+} 
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.navigationWrapper{
+    width: 50%;
+    display: flex;
+   justify-content: space-evenly;
+}
+@media screen and (max-width: 768px){
+    .logo{
+        display: none;
+    }
+    .navigationWrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
