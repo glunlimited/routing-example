@@ -1,6 +1,15 @@
 .errorWrapper {
-   text-align: center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;      
 }
 .errorWrapper img {
-    width: 20rem;
+    width: 10rem;
+}
+.btnWrapper {
+    display: flex;
+    align-items: center;  
+    gap: 16px;
 }
